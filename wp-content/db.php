@@ -1,0 +1,1 @@
+/home/vagrant/projects/internal/acftest.local/wp-content/plugins/query-monitor/wp-content/db.php

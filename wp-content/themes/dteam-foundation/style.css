@@ -1,0 +1,107 @@
+/**
+Theme Name: :DTeam Foundation
+Author: :DTeam
+*/
+
+h1, h2, h3 {
+    color: #0079bb;
+}
+
+nav.bg-light .container {
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.btn.btn-primary {
+    background: linear-gradient(90deg, #4481EB 0%, #04BEFE 100%);
+    color: #ffffff;
+    border: none;
+}
+
+.far.fa-copy:hover {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.carousel-indicators {
+    margin-bottom: -2rem;
+}
+
+.icon-light {
+    color: #cccccc;
+}
+
+.icon-dark {
+    color: #000000;
+}
+
+.crypto-account {
+    background: linear-gradient(90deg, #4481EB 0%, #04BEFE 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border-radius: 10px;
+}
+
+.crypto-account:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 15px 15px;
+}
+
+.donation-caption {
+    color: #0079bb;
+}
+
+#lang-switcher {
+    position: relative;
+    margin-top: 4px;
+    width: 60px;
+
+}
+
+.wpml-ls-legacy-dropdown-click a.wpml-ls-item-toggle::after, .wpml-ls-legacy-dropdown-click .wpml-ls-sub-menu {
+    border: none;
+}
+
+nav.bg-dark #lang-switcher a {
+    color: white;
+    background-color: #212529;
+    border: none;
+}
+
+nav.bg-light #lang-switcher a {
+    color: black;
+    border: none;
+}
+
+#news li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 991.98px) {
+    .back-to-top {
+        position: fixed;
+        display: none;
+        right: 45px;
+        bottom: 45px;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .back-to-top {
+        position: fixed;
+        display: none;
+        right: 15px;
+        bottom: 45px;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 1199px) {
+    .crypto-account-number {
+        font-size: 70%;
+    }
+
+    .bank-item, .swift-item {
+        font-size: 80%;
+    }
+}
